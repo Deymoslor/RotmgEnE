@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {  Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
@@ -23,7 +23,7 @@ function App() {
         setIsOpen(!isOpen)
     }
   return (
-    <Router>
+    
       <Switch>
           <Route exact path="/">
             <Navbar toggle={toggle}></Navbar>
@@ -80,8 +80,6 @@ function App() {
             <IniciarSesionP></IniciarSesionP>
           </Route>
       </Switch>
-      
-    </Router>
   );
 }
 
