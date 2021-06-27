@@ -37,7 +37,7 @@ function App() {
             <Media></Media>
             <Footer></Footer>
           </Route>
-          <Route  path="/wiki">
+          <Route  path="/wiki" exact>
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <WikiPage></WikiPage>
