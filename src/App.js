@@ -25,13 +25,13 @@ function App() {
   return (
     <Router>
       <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <Home></Home>
             <Footer></Footer>
           </Route>
-          <Route exact path="/wiki" >
+          <Route  path="/wiki" >
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <WikiPage></WikiPage>
