@@ -46,7 +46,7 @@ function App() {
           <Route path="/wiki/empezar" exact>
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
-            <WikiEmpezar></WikiEmpezar>
+            <GuiasEscoger></GuiasEscoger>
             <Footer></Footer>
           </Route>
           <Route path="/wiki/clases" exact>
