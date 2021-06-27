@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/RotmgEnE/static/css/main.bc34c312.chunk.css",
+    "main.js": "/RotmgEnE/static/js/main.83de1166.chunk.js",
+    "main.js.map": "/RotmgEnE/static/js/main.83de1166.chunk.js.map",
+    "runtime-main.js": "/RotmgEnE/static/js/runtime-main.71a4023f.js",
+    "runtime-main.js.map": "/RotmgEnE/static/js/runtime-main.71a4023f.js.map",
+    "static/js/2.b656e801.chunk.js": "/RotmgEnE/static/js/2.b656e801.chunk.js",
+    "static/js/2.b656e801.chunk.js.map": "/RotmgEnE/static/js/2.b656e801.chunk.js.map",
+    "index.html": "/RotmgEnE/index.html",
+    "static/css/main.bc34c312.chunk.css.map": "/RotmgEnE/static/css/main.bc34c312.chunk.css.map",
+    "static/js/2.b656e801.chunk.js.LICENSE.txt": "/RotmgEnE/static/js/2.b656e801.chunk.js.LICENSE.txt",
+    "static/media/ROTMG_logo.930444ce.png": "/RotmgEnE/static/media/ROTMG_logo.930444ce.png",
+    "static/media/crystalWorm.cdbb3bb8.jpg": "/RotmgEnE/static/media/crystalWorm.cdbb3bb8.jpg",
+    "static/media/orixBg.8f38fcb2.jpg": "/RotmgEnE/static/media/orixBg.8f38fcb2.jpg",
+    "static/media/rotmgWiki.6ffdd083.png": "/RotmgEnE/static/media/rotmgWiki.6ffdd083.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71a4023f.js",
+    "static/js/2.b656e801.chunk.js",
+    "static/css/main.bc34c312.chunk.css",
+    "static/js/main.83de1166.chunk.js"
+  ]
+}
