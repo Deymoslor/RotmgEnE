@@ -23,7 +23,7 @@ function App() {
         setIsOpen(!isOpen)
     }
   return (
-    <Router>
+    
       <Switch>
           <Route exact path="/">
             <Navbar toggle={toggle}></Navbar>
@@ -37,7 +37,7 @@ function App() {
             <Media></Media>
             <Footer></Footer>
           </Route>
-          <Route  path="/wiki" >
+          <Route  path="/wiki">
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <WikiPage></WikiPage>
@@ -80,7 +80,7 @@ function App() {
             <IniciarSesionP></IniciarSesionP>
           </Route>
       </Switch>
-    </Router>
+
   );
 }
 
