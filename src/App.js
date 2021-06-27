@@ -25,7 +25,7 @@ function App() {
   return (
     <Router>
       <Switch>
-          <Route path="/"  exact>
+          <Route path="/RotmgEnE/"  exact>
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <Home></Home>
