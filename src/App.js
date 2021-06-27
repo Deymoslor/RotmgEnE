@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react'
-import {  Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router ,Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
@@ -23,7 +23,7 @@ function App() {
         setIsOpen(!isOpen)
     }
   return (
-    
+    <Router>
       <Switch>
           <Route exact path="/">
             <Navbar toggle={toggle}></Navbar>
@@ -46,7 +46,7 @@ function App() {
           <Route path="/wiki/empezar" exact>
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
-            <GuiasEscoger></GuiasEscoger>
+            <WikiEmpezar></WikiEmpezar>
             <Footer></Footer>
           </Route>
           <Route path="/wiki/clases" exact>
@@ -80,6 +80,7 @@ function App() {
             <IniciarSesionP></IniciarSesionP>
           </Route>
       </Switch>
+    </Router>
   );
 }
 
