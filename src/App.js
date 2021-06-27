@@ -31,25 +31,25 @@ function App() {
             <Home></Home>
             <Footer></Footer>
           </Route>
+          <Route path="/media">
+            <Navbar toggle={toggle}></Navbar>
+            <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
+            <Media></Media>
+            <Footer></Footer>
+          </Route>
           <Route  path="/wiki" >
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <WikiPage></WikiPage>
             <Footer></Footer>
           </Route>
-          <Route path="/media" exact>
-            <Navbar toggle={toggle}></Navbar>
-            <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
-            <Media></Media>
-            <Footer></Footer>
-          </Route>
-          <Route path="/wiki/empezar" exact>
+          <Route path="/wiki/empezar">
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <WikiEmpezar></WikiEmpezar>
             <Footer></Footer>
           </Route>
-          <Route path="/wiki/clases" exact>
+          <Route path="/wiki/clases">
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <WikiClases></WikiClases>
