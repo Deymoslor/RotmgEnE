@@ -25,7 +25,7 @@ function App() {
   return (
     <Router>
       <Switch>
-          <Route path="/RotmgEnE/"  exact>
+          <Route path="https://deymoslor.github.io/RotmgEnE/"  exact>
             <Navbar toggle={toggle}></Navbar>
             <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <Home></Home>
